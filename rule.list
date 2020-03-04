@@ -212,6 +212,14 @@ IP-CIDR,109.239.140.0/24,Proxy
 IP-CIDR,149.154.160.0/20,Proxy
 IP-CIDR,149.154.164.0/22,Proxy
 
+# > TikTok
+USER-AGENT,TikTok*,JP
+DOMAIN-SUFFIX,muscdn.com,JP
+DOMAIN-SUFFIX,musical.ly,JP
+DOMAIN-SUFFIX,tiktokv.com,JP
+DOMAIN-SUFFIX,tiktokcdn.com,JP
+DOMAIN-KEYWORD,-tiktokcdn-com,JP
+
 # > Twitter
 DOMAIN-SUFFIX,pscp.tv,Proxy
 DOMAIN-SUFFIX,periscope.tv,Proxy
@@ -256,7 +264,7 @@ DOMAIN-SUFFIX,reddit.com,Proxy
 DOMAIN-SUFFIX,redditmedia.com,Proxy
 DOMAIN-SUFFIX,redditstatic.com,Proxy
 DOMAIN-SUFFIX,rlcdn.com,Proxy
-DOMAIN-SUFFIX,n3ro.fun,SG-IPLC-N3RO
+#DOMAIN-SUFFIX,n3ro.fun,SG-IPLC-N3RO
 DOMAIN-SUFFIX,aixdzs.com,Proxy
 DOMAIN-SUFFIX,quora.com,Proxy
 DOMAIN-SUFFIX,quoracdn.net,Proxy
