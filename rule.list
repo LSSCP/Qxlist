@@ -1,0 +1,269 @@
+## ISP HIJACK & Malware
+# > ChinaTelecom
+IP-CIDR,61.160.200.223/32,REJECT
+IP-CIDR,61.160.200.242/32,REJECT
+IP-CIDR,61.160.200.252/32,REJECT
+IP-CIDR,61.174.50.214/32,REJECT
+IP-CIDR,111.175.220.163/32,REJECT
+IP-CIDR,111.175.220.164/32,REJECT
+IP-CIDR,122.229.8.47/32,REJECT
+IP-CIDR,122.229.29.89/32,REJECT
+IP-CIDR,124.232.160.178/32,REJECT
+IP-CIDR,175.6.223.15/32,REJECT
+IP-CIDR,183.59.53.237/32,REJECT
+IP-CIDR,218.93.127.37/32,REJECT
+IP-CIDR,221.228.17.152/32,REJECT
+IP-CIDR,221.231.6.79/32,REJECT
+IP-CIDR,222.186.61.91/32,REJECT
+IP-CIDR,222.186.61.95/32,REJECT
+IP-CIDR,222.186.61.96/32,REJECT
+IP-CIDR,222.186.61.97/32,REJECT
+# > ChinaUnicom
+IP-CIDR,106.75.231.48/32,REJECT
+IP-CIDR,119.4.249.166/32,REJECT
+IP-CIDR,220.196.52.141/32,REJECT
+IP-CIDR,221.6.4.148/32,REJECT
+# > ChinaMobile
+IP-CIDR,114.247.28.96/32,REJECT
+IP-CIDR,221.179.131.72/32,REJECT
+IP-CIDR,221.179.140.145/32,REJECT
+# > Dr.Peng
+# - IP-CIDR,10.72.25.0/24,REJECT
+IP-CIDR,115.182.16.79/32,REJECT
+IP-CIDR,118.144.88.126/32,REJECT
+IP-CIDR,118.144.88.215/32,REJECT
+IP-CIDR,118.144.88.216/32,REJECT
+IP-CIDR,120.76.189.132/32,REJECT
+IP-CIDR,124.14.21.147/32,REJECT
+IP-CIDR,124.14.21.151/32,REJECT
+IP-CIDR,180.166.52.24/32,REJECT
+IP-CIDR,211.161.101.106/32,REJECT
+IP-CIDR,220.115.251.25/32,REJECT
+IP-CIDR,222.73.156.235/32,REJECT
+DOMAIN-SUFFIX,mackeeper.com,REJECT
+DOMAIN-SUFFIX,flash.cn,REJECT
+DOMAIN,geo2.adobe.com,REJECT
+
+
+#mail bypass
+DOMAIN-KEYWORD,smtp,skr
+DOMAIN-KEYWORD,imap,skr
+DOMAIN-SUFFIX,smartmailcloud.com,skr
+
+
+
+
+# Apple
+#- DOMAIN,gspe1-ssl.ls.apple.com,Proxy
+#- USER-AGENT,AppleNews*,Proxy
+#- USER-AGENT,com.apple.news*,Proxy
+DOMAIN-SUFFIX,apple.news,Proxy
+DOMAIN,news-client.apple.com,Proxy
+DOMAIN,news-edge.apple.com,Proxy
+DOMAIN,news-events.apple.com,Proxy
+DOMAIN,apple.comscoreresearch.com,Proxy
+#- DOMAIN,play.itunes.apple.com,Proxy
+DOMAIN,news-assets.apple.com,Proxy
+IP-CIDR,17.253.70.0/23,skr
+
+
+# > BBC iPlayer
+# USER-AGENT,BBCiPlayer*,UK
+DOMAIN-SUFFIX,bbc.co.uk,UK
+DOMAIN-SUFFIX,bbci.co.uk,UK
+DOMAIN-KEYWORD,bbcfmt,UK
+DOMAIN-KEYWORD,uk-live,UK
+DOMAIN-SUFFIX,bbc.com,UK
+DOMAIN-SUFFIX,bbcimg.co.uk,UK
+DOMAIN-SUFFIX,bbc.net.uk,UK
+
+# >Cloudflare
+IP-CIDR,104.27.160.0/29,Proxy
+IP-CIDR,104.27.160.0/20,Proxy
+
+# >DISCORD
+DOMAIN-SUFFIX,discordapp.com,Proxy
+DOMAIN-SUFFIX,discord.media,Proxy
+DOMAIN-SUFFIX,discord.gg,Proxy
+
+# >Facebook
+DOMAIN-SUFFIX,cdninstagram.com,Proxy
+DOMAIN-SUFFIX,fb.com,Proxy
+DOMAIN-SUFFIX,facebook.net,Proxy
+DOMAIN-SUFFIX,fb.me,Proxy
+DOMAIN-SUFFIX,fbaddins.com,Proxy
+DOMAIN-SUFFIX,fbcdn.net,Proxy
+DOMAIN-SUFFIX,fbsbx.com,Proxy
+DOMAIN-SUFFIX,fbworkmail.com,Proxy
+DOMAIN-SUFFIX,instagram.com,Proxy
+DOMAIN-SUFFIX,m.me,Proxy
+DOMAIN-SUFFIX,messenger.com,Proxy
+DOMAIN-SUFFIX,oculus.com,Proxy
+DOMAIN-SUFFIX,oculuscdn.com,Proxy
+DOMAIN-SUFFIX,rocksdb.org,Proxy
+DOMAIN-SUFFIX,whatsapp.com,Proxy
+DOMAIN-SUFFIX,whatsapp.net,Proxy
+DOMAIN-KEYWORD,facebook,Proxy
+IP-CIDR,3.123.36.126/32,Proxy
+IP-CIDR,35.157.215.84/32,Proxy
+IP-CIDR,35.157.217.255/32,Proxy
+IP-CIDR,52.58.209.134/32,Proxy
+IP-CIDR,54.93.124.31/32,Proxy
+IP-CIDR,54.162.243.80/32,Proxy
+IP-CIDR,54.173.34.141/32,Proxy
+IP-CIDR,54.235.23.242/32,Proxy
+IP-CIDR,169.45.248.118/32,Proxy
+IP-CIDR,69.171.240.0/20,Proxy
+IP-CIDR,69.171.224.0/19,Proxy
+IP-CIDR,69.63.184.0/21,Proxy
+IP-CIDR,69.63.176.0/20,Proxy
+IP-CIDR,31.13.81.0/24,Proxy
+IP-CIDR,31.13.64.0/19,Proxy
+IP-CIDR,31.13.64.0/18,Proxy
+IP-CIDR,66.220.144.0/21,Proxy
+IP-CIDR,66.220.144.0/20,Proxy
+
+# Google Service
+DOMAIN-SUFFIX,youtube.com,Proxy
+DOMAIN-SUFFIX,ytimg.com,Proxy
+DOMAIN-SUFFIX,youtu.be,Proxy
+DOMAIN-SUFFIX,youtube-nocookie.com,Proxy
+DOMAIN-SUFFIX,googlevideo.com,Proxy
+DOMAIN-SUFFIX,googleusercontent.com,Proxy
+DOMAIN-SUFFIX,googleapis.com,Proxy
+DOMAIN-SUFFIX,ggpht.com,Proxy
+DOMAIN-SUFFIX,goo.gl,Proxy
+DOMAIN-SUFFIX,gstatic.com,Proxy
+DOMAIN-SUFFIX,google.com,Proxy
+DOMAIN-SUFFIX,google-analytics.com,Proxy
+DOMAIN-SUFFIX,googletagservices.com,Proxy
+DOMAIN-SUFFIX,github.io,Proxy
+DOMAIN-SUFFIX,github.com,Proxy
+DOMAIN-SUFFIX,githubassets.com,Proxy
+DOMAIN-SUFFIX,githubusercontent.com,Proxy
+IP-CIDR,130.211.33.145/32,skr
+
+
+# JP resticted
+DOMAIN-SUFFIX,nicovideo.jp,JP
+DOMAIN-SUFFIX,nimg.jp,JP
+DOMAIN-SUFFIX,dmc.nico,JP
+DOMAIN-SUFFIX,yahooapis.jp,JP
+DOMAIN-SUFFIX,yahoo.co.jp,JP
+DOMAIN-SUFFIX,yahoo.com,JP
+DOMAIN-SUFFIX,tver.jp,JP
+DOMAIN-SUFFIX,yimg.jp,JP
+DOMAIN-SUFFIX,smilevideo.jp,JP
+DOMAIN-SUFFIX,fc2.com,JP
+DOMAIN-SUFFIX,dmm.com,JP
+DOMAIN-SUFFIX,dmm.co.jp,JP
+
+# >Microsoft
+IP-CIDR,137.117.17.70/32,skr
+
+# >NASA
+DOMAIN-SUFFIX,nasa.gov,Proxy
+
+#> Netflix
+DOMAIN-SUFFIX,netflix.com,Netflix
+DOMAIN-SUFFIX,netflix.net,Netflix
+DOMAIN-SUFFIX,nflxext.com,Netflix
+DOMAIN-SUFFIX,nflximg.com,Netflix
+DOMAIN-SUFFIX,nflximg.net,Netflix
+DOMAIN-SUFFIX,nflxso.net,Netflix
+DOMAIN-SUFFIX,nflxvideo.net,Netflix
+DOMAIN-SUFFIX,netflixdnstest0.com,Netflix
+DOMAIN-SUFFIX,netflixdnstest1.com,Netflix
+DOMAIN-SUFFIX,netflixdnstest2.com,Netflix
+DOMAIN-SUFFIX,netflixdnstest3.com,Netflix
+DOMAIN-SUFFIX,netflixdnstest4.com,Netflix
+DOMAIN-SUFFIX,netflixdnstest5.com,Netflix
+DOMAIN-SUFFIX,netflixdnstest6.com,Netflix
+DOMAIN-SUFFIX,netflixdnstest7.com,Netflix
+DOMAIN-SUFFIX,netflixdnstest8.com,Netflix
+DOMAIN-SUFFIX,netflixdnstest9.com,Netflix
+IP-CIDR,23.246.0.0/18,Netflix
+IP-CIDR,37.77.184.0/21,Netflix
+IP-CIDR,45.57.0.0/17,Netflix
+IP-CIDR,64.120.128.0/17,Netflix
+IP-CIDR,66.197.128.0/17,Netflix
+IP-CIDR,108.175.32.0/20,Netflix
+IP-CIDR,192.173.64.0/18,Netflix
+IP-CIDR,198.38.96.0/19,Netflix
+IP-CIDR,198.45.48.0/20,Netflix
+
+# PIXIV
+DOMAIN-SUFFIX,pixiv.net,Proxy
+DOMAIN-SUFFIX,pixiv.org,Proxy
+DOMAIN-SUFFIX,pximg.net,Proxy
+DOMAIN-SUFFIX,pixivsketch.net,Proxy
+
+# Pinterest
+DOMAIN-SUFFIX,pinterest.com,Proxy
+DOMAIN-SUFFIX,pinimg.com,Proxy
+
+# Telegram
+DOMAIN-SUFFIX,telegra.ph,Proxy
+DOMAIN-SUFFIX,telegram.org,Proxy
+IP-CIDR,91.108.56.0/22,Proxy
+IP-CIDR,91.108.4.0/22,Proxy
+IP-CIDR,91.108.8.0/22,Proxy
+IP-CIDR,109.239.140.0/24,Proxy
+IP-CIDR,149.154.160.0/20,Proxy
+IP-CIDR,149.154.164.0/22,Proxy
+
+# > Twitter
+DOMAIN-SUFFIX,pscp.tv,Proxy
+DOMAIN-SUFFIX,periscope.tv,Proxy
+DOMAIN-SUFFIX,t.co,Proxy
+DOMAIN-SUFFIX,twimg.co,Proxy
+DOMAIN-SUFFIX,twimg.com,Proxy
+DOMAIN-SUFFIX,twitpic.com,Proxy
+DOMAIN-SUFFIX,vine.co,Proxy
+DOMAIN-KEYWORD,twitter,Proxy
+IP-CIDR,199.16.156.0/23,Proxy
+IP-CIDR,199.16.156.0/22,Proxy
+IP-CIDR,199.59.148.0/22,Proxy
+
+# Wiki
+DOMAIN-SUFFIX,wikimapia.org,Proxy
+DOMAIN-SUFFIX,wikipedia.org,Proxy
+DOMAIN-SUFFIX,wikiquote.org,Proxy
+
+# Other Universal
+DOMAIN-SUFFIX,amazonaws.com,Proxy
+DOMAIN-SUFFIX,notion.so,Proxy
+DOMAIN-SUFFIX,termius.com,Proxy
+DOMAIN-SUFFIX,limbopro.xyz,Proxy
+DOMAIN-SUFFIX,freedivingfamily.com,Proxy
+DOMAIN-SUFFIX,adamfreediver.com,Proxy
+DOMAIN-SUFFIX,maying.co,Proxy
+DOMAIN-SUFFIX,share.dmhy.org,Proxy
+DOMAIN-SUFFIX,teachablecdn.com,Proxy
+DOMAIN-SUFFIX,wistia.com,Proxy
+DOMAIN-SUFFIX,teachable.cloud,Proxy
+DOMAIN-KEYWORD,embedwistia-a,Proxy
+DOMAIN-SUFFIX,v2ray.com,Proxy
+DOMAIN-SUFFIX,windy.com,Proxy
+DOMAIN-SUFFIX,ui.com,Proxy
+DOMAIN-SUFFIX,ubnt.com,Proxy
+DOMAIN-SUFFIX,archiveofourown.org,Proxy
+DOMAIN-SUFFIX,blogger.com,Proxy
+DOMAIN-SUFFIX,blogimg.com,Proxy
+DOMAIN-KEYWORD,blogspot.com,Proxy
+DOMAIN-SUFFIX,redd.it,Proxy
+DOMAIN-SUFFIX,reddit.com,Proxy
+DOMAIN-SUFFIX,redditmedia.com,Proxy
+DOMAIN-SUFFIX,redditstatic.com,Proxy
+DOMAIN-SUFFIX,rlcdn.com,Proxy
+DOMAIN-SUFFIX,n3ro.fun,SG-IPLC-N3RO
+DOMAIN-SUFFIX,aixdzs.com,Proxy
+DOMAIN-SUFFIX,quora.com,Proxy
+DOMAIN-SUFFIX,quoracdn.net,Proxy
+DOMAIN-SUFFIX,bintray.com,Proxy
+DOMAIN-SUFFIX,patreon.com,skr
+DOMAIN-SUFFIX,pendo.io,skr
+DOMAIN-SUFFIX,patreonusercontent.com,skr
+DOMAIN-SUFFIX,visualstudio.com,Proxy
+DOMAIN-SUFFIX,azureedge.net,Proxy
+DOMAIN-SUFFIX,core.windows.net,Proxy
