@@ -141,6 +141,7 @@ DOMAIN-SUFFIX,github.io,Proxy
 DOMAIN-SUFFIX,github.com,Proxy
 DOMAIN-SUFFIX,githubassets.com,Proxy
 DOMAIN-SUFFIX,githubusercontent.com,Proxy
+DOMAIN-SUFFIX,google.com.hk,Proxy
 IP-CIDR,130.211.33.145/32,skr
 
 
