@@ -28,7 +28,7 @@ IP-CIDR,114.247.28.96/32,REJECT
 IP-CIDR,221.179.131.72/32,REJECT
 IP-CIDR,221.179.140.145/32,REJECT
 # > Dr.Peng
-# - IP-CIDR,10.72.25.0/24,REJECT
+# IP-CIDR,10.72.25.0/24,REJECT
 IP-CIDR,115.182.16.79/32,REJECT
 IP-CIDR,118.144.88.126/32,REJECT
 IP-CIDR,118.144.88.215/32,REJECT
@@ -54,15 +54,15 @@ DOMAIN-SUFFIX,smartmailcloud.com,skr
 
 
 # Apple
-#- DOMAIN,gspe1-ssl.ls.apple.com,Proxy
-#- USER-AGENT,AppleNews*,Proxy
-#- USER-AGENT,com.apple.news*,Proxy
+#DOMAIN,gspe1-ssl.ls.apple.com,Proxy
+#USER-AGENT,AppleNews*,Proxy
+#USER-AGENT,com.apple.news*,Proxy
 DOMAIN-SUFFIX,apple.news,Proxy
 DOMAIN,news-client.apple.com,Proxy
 DOMAIN,news-edge.apple.com,Proxy
 DOMAIN,news-events.apple.com,Proxy
 DOMAIN,apple.comscoreresearch.com,Proxy
-#- DOMAIN,play.itunes.apple.com,Proxy
+#DOMAIN,play.itunes.apple.com,Proxy
 DOMAIN,news-assets.apple.com,Proxy
 IP-CIDR,17.253.70.0/23,skr
 
@@ -161,6 +161,13 @@ DOMAIN-SUFFIX,dmm.co.jp,JP
 
 # >Microsoft
 IP-CIDR,137.117.17.70/32,skr
+DOMAIN,spoprod-a.akamaihd.net,Proxy
+DOMAIN,shellprod.msocdn.com,Proxy
+DOMAIN,browser.pipe.aria.microsoft.com,Proxy
+DOMAIN-SUFFIX,msftauth.net,Proxy
+DOMAIN-SUFFIX,microsoftonline.com,Proxy
+DOMAIN-SUFFIX,microsoft.com,Proxy
+DOMAIN-SUFFIX,sharepoint.com,Proxy
 
 # >NASA
 DOMAIN-SUFFIX,nasa.gov,Proxy
@@ -276,3 +283,19 @@ DOMAIN-SUFFIX,patreonusercontent.com,skr
 DOMAIN-SUFFIX,visualstudio.com,Proxy
 DOMAIN-SUFFIX,azureedge.net,Proxy
 DOMAIN-SUFFIX,core.windows.net,Proxy
+DOMAIN-SUFFIX,pythonhosted.org,Proxy
+DOMAIN-SUFFIX,pypi.org,Proxy
+DOMAIN-SUFFIX,matplotlib.org,Proxy
+DOMAIN-SUFFIX,anaconda.org,Proxy
+DOMAIN-SUFFIX,anaconda.com,Proxy
+DOMAIN-SUFFIX,fantia.jp,Proxy
+DOMAIN-SUFFIX,jetbrains.com,Proxy
+DOMAIN-SUFFIX,typography.com,Proxy
+DOMAIN-SUFFIX,mmacore.tv,Proxy
+DOMAIN-SUFFIX,sapo.pt,Proxy
+DOMAIN-SUFFIX,projectnaptha.com,Proxy
+DOMAIN-SUFFIX,archive.org,Proxy
+DOMAIN-SUFFIX,alfredforum.com,Proxy
+DOMAIN-SUFFIX,oreilly.com,Proxy
+DOMAIN-SUFFIX,stackoverflow.com,Proxy
+DOMAIN-SUFFIX,imgur.com,Proxy
