@@ -51,7 +51,16 @@ DOMAIN-KEYWORD,imap,skr
 DOMAIN-SUFFIX,smartmailcloud.com,skr
 
 
-
+# > AbemaTV
+#USER-AGENT,AbemaTV*,AbemaTV
+- DOMAIN-SUFFIX,abema.io,JP
+- DOMAIN-SUFFIX,abema.tv,JP
+- DOMAIN-SUFFIX,ameba.jp,JP
+- DOMAIN-SUFFIX,hayabusa.io,JP
+- DOMAIN,abematv.akamaized.net,JP
+- DOMAIN,ds-linear-abematv.akamaized.net,JP
+- DOMAIN,ds-vod-abematv.akamaized.net,JP
+- DOMAIN,linear-abematv.akamaized.net,JP
 
 # Apple
 #DOMAIN,gspe1-ssl.ls.apple.com,Proxy
