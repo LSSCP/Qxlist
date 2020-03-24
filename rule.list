@@ -77,7 +77,7 @@ IP-CIDR,17.253.70.0/23,skr
 
 
 # > BBC iPlayer
-# USER-AGENT,BBCiPlayer*,UK
+USER-AGENT,BBCiPlayer*,UK
 DOMAIN-SUFFIX,bbc.co.uk,UK
 DOMAIN-SUFFIX,bbci.co.uk,UK
 DOMAIN-KEYWORD,bbcfmt,UK
