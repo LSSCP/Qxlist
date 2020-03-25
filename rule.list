@@ -52,7 +52,7 @@ DOMAIN-SUFFIX,smartmailcloud.com,skr
 
 
 # > AbemaTV
-USER-AGENT,AbemaTV*,AbemaTV
+USER-AGENT,AbemaTV*,JP
 DOMAIN-SUFFIX,abema.io,JP
 DOMAIN-SUFFIX,abema.tv,JP
 DOMAIN-SUFFIX,ameba.jp,JP
