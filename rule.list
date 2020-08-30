@@ -269,6 +269,7 @@ DOMAIN-SUFFIX,wistia.com,Proxy
 DOMAIN-SUFFIX,teachable.cloud,Proxy
 DOMAIN-KEYWORD,embedwistia-a,Proxy
 DOMAIN-SUFFIX,v2ray.com,Proxy
+DOMAIN-SUFFIX,v2fly.org,Proxy
 DOMAIN-SUFFIX,windy.com,Proxy
 DOMAIN-SUFFIX,ui.com,Proxy
 DOMAIN-SUFFIX,ubnt.com,Proxy
