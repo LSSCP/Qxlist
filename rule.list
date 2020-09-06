@@ -89,6 +89,10 @@ DOMAIN-SUFFIX,bbc.net.uk,UK
 IP-CIDR,104.27.160.0/29,Proxy
 IP-CIDR,104.27.160.0/20,Proxy
 
+# > Captcha
+DOMAIN-SUFFIX,recaptcha.net,Proxy
+DOMAIN-SUFFIX,hcaptcha.com,Proxy
+
 # >DISCORD
 DOMAIN-SUFFIX,discordapp.com,Proxy
 DOMAIN-SUFFIX,discord.media,Proxy
