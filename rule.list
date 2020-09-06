@@ -220,12 +220,12 @@ DOMAIN-SUFFIX,pinterest.com,Proxy
 DOMAIN-SUFFIX,pinimg.com,Proxy
 
 # Telegram
-DOMAIN-SUFFIX,t.me,Porxy
-DOMAIN-SUFFIX,tdesktop.com,Porxy
-DOMAIN-SUFFIX,telegra.ph,Porxy
-DOMAIN-SUFFIX,telegram.me,Porxy
-DOMAIN-SUFFIX,telegram.org,Porxy
-DOMAIN-SUFFIX,appcenter.ms,Porxy
+DOMAIN-SUFFIX,t.me,Proxy
+DOMAIN-SUFFIX,tdesktop.com,Proxy
+DOMAIN-SUFFIX,telegra.ph,Proxy
+DOMAIN-SUFFIX,telegram.me,Proxy
+DOMAIN-SUFFIX,telegram.org,Proxy
+DOMAIN-SUFFIX,appcenter.ms,Proxy
 IP-CIDR,91.108.4.0/22,Proxy
 IP-CIDR,91.108.8.0/22,Proxy
 IP-CIDR,91.108.12.0/22,Proxy
