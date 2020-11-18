@@ -250,8 +250,7 @@ USER-AGENT,TikTok*,JP
 DOMAIN-SUFFIX,muscdn.com,JP
 DOMAIN-SUFFIX,musical.ly,JP
 DOMAIN-SUFFIX,tiktokv.com,JP
-DOMAIN-SUFFIX,tiktokcdn.com,JP
-DOMAIN-KEYWORD,-tiktokcdn-com,JP
+DOMAIN-SUFFIX,tiktok.com,JP
 
 # > Twitter
 DOMAIN-SUFFIX,pscp.tv,Proxy
