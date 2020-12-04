@@ -45,9 +45,9 @@ DOMAIN-SUFFIX,flash.cn,REJECT
 DOMAIN,geo2.adobe.com,REJECT
 
 #mail bypass
-DOMAIN-KEYWORD,smtp,us
-DOMAIN-KEYWORD,imap,us
-DOMAIN-SUFFIX,smartmailcloud.com,us
+DOMAIN-KEYWORD,smtp,skr
+DOMAIN-KEYWORD,imap,skr
+DOMAIN-SUFFIX,smartmailcloud.com,skr
 
 # > AbemaTV
 USER-AGENT,AbemaTV*,JP
